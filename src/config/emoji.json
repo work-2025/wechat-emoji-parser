@@ -1,0 +1,850 @@
+[
+  {
+    "cn": "[微笑]",
+    "hk": "[微笑]",
+    "us": "[Smile]",
+    "code": "/::)",
+    "web_code": "/微笑",
+    "src": "/static/wechat-emojis/Smile.png"
+  },
+  {
+    "cn": "[撇嘴]",
+    "hk": "[撇嘴]",
+    "us": "[Pout]",
+    "code": "/::(",
+    "web_code": "/撇嘴",
+    "src": "/static/wechat-emojis/Pout.png"
+  },
+  {
+    "cn": "[色]",
+    "hk": "[色]",
+    "us": "[Flirty]",
+    "code": "/:B-)",
+    "web_code": "/色",
+    "src": "/static/wechat-emojis/Flirty.png"
+  },
+  {
+    "cn": "[发呆]",
+    "hk": "[發呆]",
+    "us": "[Daze]",
+    "code": "/::|",
+    "web_code": "/发呆",
+    "src": "/static/wechat-emojis/Daze.png"
+  },
+  {
+    "cn": "[得意]",
+    "hk": "[得意]",
+    "us": "[Proud]",
+    "code": "/:8-)",
+    "web_code": "/得意",
+    "src": "/static/wechat-emojis/Proud.png"
+  },
+  {
+    "cn": "[流泪]",
+    "hk": "[流淚]",
+    "us": "[Tears]",
+    "code": "/::-|",
+    "web_code": "/流泪",
+    "src": "/static/wechat-emojis/Tears.png"
+  },
+  {
+    "cn": "[害羞]",
+    "hk": "[害羞]",
+    "us": "[Shy]",
+    "code": "/::X",
+    "web_code": "/害羞",
+    "src": "/static/wechat-emojis/Shy.png"
+  },
+  {
+    "cn": "[闭嘴]",
+    "hk": "[閉嘴]",
+    "us": "[Mute]",
+    "code": "/::Z",
+    "web_code": "/闭嘴",
+    "src": "/static/wechat-emojis/Mute.png"
+  },
+  {
+    "cn": "[睡]",
+    "hk": "[睡]",
+    "us": "[Sleep]",
+    "code": "/::x",
+    "web_code": "/睡",
+    "src": "/static/wechat-emojis/Sleep.png"
+  },
+  {
+    "cn": "[大哭]",
+    "hk": "[大哭]",
+    "us": "[Cry]",
+    "code": "/::'(",
+    "web_code": "/大哭",
+    "src": "/static/wechat-emojis/Cry.png"
+  },
+  {
+    "cn": "[尴尬]",
+    "hk": "[尷尬]",
+    "us": "[Awkward]",
+    "code": "/::-!",
+    "web_code": "/尴尬",
+    "src": "/static/wechat-emojis/Awkward.png"
+  },
+  {
+    "cn": "[发怒]",
+    "hk": "[發怒]",
+    "us": "[Angry]",
+    "code": "/::@",
+    "web_code": "/发怒",
+    "src": "/static/wechat-emojis/Angry.png"
+  },
+  {
+    "cn": "[调皮]",
+    "hk": "[調皮]",
+    "us": "[Naughty]",
+    "code": "/::P",
+    "web_code": "/调皮",
+    "src": "/static/wechat-emojis/Naughty.png"
+  },
+  {
+    "cn": "[呲牙]",
+    "hk": "[齜牙]",
+    "us": "[Grin]",
+    "code": "/::D",
+    "web_code": "/呲牙",
+    "src": "/static/wechat-emojis/Grin.png"
+  },
+  {
+    "cn": "[惊讶]",
+    "hk": "[驚訝]",
+    "us": "[Surprised]",
+    "code": "/::O",
+    "web_code": "/惊讶",
+    "src": "/static/wechat-emojis/Surprised.png"
+  },
+  {
+    "cn": "[难过]",
+    "hk": "[難過]",
+    "us": "[Sad]",
+    "code": "/::(",
+    "web_code": "/难过",
+    "src": "/static/wechat-emojis/Sad.png"
+  },
+  {
+    "cn": "[囧]",
+    "hk": "[囧]",
+    "us": "[Embarrassed]",
+    "code": "/::J",
+    "web_code": "/囧",
+    "src": "/static/wechat-emojis/Embarrassed.png"
+  },
+  {
+    "cn": "[抓狂]",
+    "hk": "[抓狂]",
+    "us": "[Frustrated]",
+    "code": "/:@!",
+    "web_code": "/抓狂",
+    "src": "/static/wechat-emojis/Frustrated.png"
+  },
+  {
+    "cn": "[吐]",
+    "hk": "[吐]",
+    "us": "[Vomit]",
+    "code": "/::T",
+    "web_code": "/吐",
+    "src": "/static/wechat-emojis/Vomit.png"
+  },
+  {
+    "cn": "[偷笑]",
+    "hk": "[偷笑]",
+    "us": "[Giggle]",
+    "code": "/:,@-D",
+    "web_code": "/偷笑",
+    "src": "/static/wechat-emojis/Giggle.png"
+  },
+  {
+    "cn": "[愉快]",
+    "hk": "[愉快]",
+    "us": "[Happy]",
+    "code": "/:,@-)",
+    "web_code": "/愉快",
+    "src": "/static/wechat-emojis/Happy.png"
+  },
+  {
+    "cn": "[白眼]",
+    "hk": "[白眼]",
+    "us": "[RollEyes]",
+    "code": "/:,@o",
+    "web_code": "/白眼",
+    "src": "/static/wechat-emojis/RollEyes.png"
+  },
+  {
+    "cn": "[傲慢]",
+    "hk": "[傲慢]",
+    "us": "[Arrogant]",
+    "code": "/:,@-P",
+    "web_code": "/傲慢",
+    "src": "/static/wechat-emojis/Arrogant.png"
+  },
+  {
+    "cn": "[困]",
+    "hk": "[困]",
+    "us": "[Tired]",
+    "code": "/:,-|",
+    "web_code": "/困",
+    "src": "/static/wechat-emojis/Tired.png"
+  },
+  {
+    "cn": "[惊恐]",
+    "hk": "[驚恐]",
+    "us": "[Scared]",
+    "code": "/:!!!",
+    "web_code": "/惊恐",
+    "src": "/static/wechat-emojis/Scared.png"
+  },
+  {
+    "cn": "[憨笑]",
+    "hk": "[憨笑]",
+    "us": "[Goofy]",
+    "code": "/:xx",
+    "web_code": "/憨笑",
+    "src": "/static/wechat-emojis/Goofy.png"
+  },
+  {
+    "cn": "[悠闲]",
+    "hk": "[悠閒]",
+    "us": "[Relaxed]",
+    "code": "/:bye",
+    "web_code": "/悠闲",
+    "src": "/static/wechat-emojis/Relaxed.png"
+  },
+  {
+    "cn": "[咒骂]",
+    "hk": "[咒罵]",
+    "us": "[Curse]",
+    "code": "/:@>",
+    "web_code": "/咒骂",
+    "src": "/static/wechat-emojis/Curse.png"
+  },
+  {
+    "cn": "[疑问]",
+    "hk": "[疑問]",
+    "us": "[Question]",
+    "code": "/:? ",
+    "web_code": "/疑问",
+    "src": "/static/wechat-emojis/Question.png"
+  },
+  {
+    "cn": "[嘘]",
+    "hk": "[噓]",
+    "us": "[Hush]",
+    "code": "/:x",
+    "web_code": "/嘘",
+    "src": "/static/wechat-emojis/Hush.png"
+  },
+  {
+    "cn": "[晕]",
+    "hk": "[暈]",
+    "us": "[Dizzy]",
+    "code": "/:8*",
+    "web_code": "/晕",
+    "src": "/static/wechat-emojis/Dizzy.png"
+  },
+  {
+    "cn": "[衰]",
+    "hk": "[衰]",
+    "us": "[Unlucky]",
+    "code": "/:@x",
+    "web_code": "/衰",
+    "src": "/static/wechat-emojis/Unlucky.png"
+  },
+  {
+    "cn": "[骷髅]",
+    "hk": "[骷髏]",
+    "us": "[Skull]",
+    "code": "/:@!",
+    "web_code": "/骷髅",
+    "src": "/static/wechat-emojis/Skull.png"
+  },
+  {
+    "cn": "[敲打]",
+    "hk": "[敲打]",
+    "us": "[Beat]",
+    "code": "/:!!",
+    "web_code": "/敲打",
+    "src": "/static/wechat-emojis/Beat.png"
+  },
+  {
+    "cn": "[再见]",
+    "hk": "[再見]",
+    "us": "[Bye]",
+    "code": "/:bye",
+    "web_code": "/再见",
+    "src": "/static/wechat-emojis/Bye.png"
+  },
+  {
+    "cn": "[擦汗]",
+    "hk": "[擦汗]",
+    "us": "[WipeSweat]",
+    "code": "/:wipe",
+    "web_code": "/擦汗",
+    "src": "/static/wechat-emojis/WipeSweat.png"
+  },
+  {
+    "cn": "[抠鼻]",
+    "hk": "[摳鼻]",
+    "us": "[PickNose]",
+    "code": "/:dig",
+    "web_code": "/抠鼻",
+    "src": "/static/wechat-emojis/PickNose.png"
+  },
+  {
+    "cn": "[鼓掌]",
+    "hk": "[鼓掌]",
+    "us": "[Clap]",
+    "code": "/:handclap",
+    "web_code": "/鼓掌",
+    "src": "/static/wechat-emojis/Clap.png"
+  },
+  {
+    "cn": "[坏笑]",
+    "hk": "[壞笑]",
+    "us": "[EvilLaugh]",
+    "code": "/:evil",
+    "web_code": "/坏笑",
+    "src": "/static/wechat-emojis/EvilLaugh.png"
+  },
+  {
+    "cn": "[右哼哼]",
+    "hk": "[右哼哼]",
+    "us": "[HumRight]",
+    "code": "/:hmmr",
+    "web_code": "/右哼哼",
+    "src": "/static/wechat-emojis/HumRight.png"
+  },
+  {
+    "cn": "[鄙视]",
+    "hk": "[鄙視]",
+    "us": "[LookDown]",
+    "code": "/:lookdown",
+    "web_code": "/鄙视",
+    "src": "/static/wechat-emojis/LookDown.png"
+  },
+  {
+    "cn": "[委屈]",
+    "hk": "[委屈]",
+    "us": "[Wronged]",
+    "code": "/:wronged",
+    "web_code": "/委屈",
+    "src": "/static/wechat-emojis/Wronged.png"
+  },
+  {
+    "cn": "[快哭了]",
+    "hk": "[快哭了]",
+    "us": "[AboutToCry]",
+    "code": "/:cry",
+    "web_code": "/快哭了",
+    "src": "/static/wechat-emojis/AboutToCry.png"
+  },
+  {
+    "cn": "[阴险]",
+    "hk": "[陰險]",
+    "us": "[Insidious]",
+    "code": "/:insidious",
+    "web_code": "/阴险",
+    "src": "/static/wechat-emojis/Insidious.png"
+  },
+  {
+    "cn": "[亲亲]",
+    "hk": "[親親]",
+    "us": "[Kiss]",
+    "code": "/:kiss",
+    "web_code": "/亲亲",
+    "src": "/static/wechat-emojis/Kiss.png"
+  },
+  {
+    "cn": "[可怜]",
+    "hk": "[可憐]",
+    "us": "[Pitiful]",
+    "code": "/:pitiful",
+    "web_code": "/可怜",
+    "src": "/static/wechat-emojis/Pitiful.png"
+  },
+  {
+    "cn": "[笑脸]",
+    "hk": "[笑臉]",
+    "us": "[Smiley]",
+    "code": "/:smiley",
+    "web_code": "/笑脸",
+    "src": "/static/wechat-emojis/Smiley.png"
+  },
+  {
+    "cn": "[生病]",
+    "hk": "[生病]",
+    "us": "[Sick]",
+    "code": "/:sick",
+    "web_code": "/生病",
+    "src": "/static/wechat-emojis/Sick.png"
+  },
+  {
+    "cn": "[脸红]",
+    "hk": "[臉紅]",
+    "us": "[Blush]",
+    "code": "/:blush",
+    "web_code": "/脸红",
+    "src": "/static/wechat-emojis/Blush.png"
+  },
+  {
+    "cn": "[破涕为笑]",
+    "hk": "[破涕為笑]",
+    "us": "[BreakIntoLaughter]",
+    "code": "/:breakintolaugh",
+    "web_code": "/破涕为笑",
+    "src": "/static/wechat-emojis/BreakIntoLaughter.png"
+  },
+  {
+    "cn": "[恐惧]",
+    "hk": "[恐懼]",
+    "us": "[Fear]",
+    "code": "/:fear",
+    "web_code": "/恐惧",
+    "src": "/static/wechat-emojis/Fear.png"
+  },
+  {
+    "cn": "[失望]",
+    "hk": "[失望]",
+    "us": "[Disappointed]",
+    "code": "/:disappointed",
+    "web_code": "/失望",
+    "src": "/static/wechat-emojis/Disappointed.png"
+  },
+  {
+    "cn": "[无语]",
+    "hk": "[無語]",
+    "us": "[Speechless]",
+    "code": "/:speechless",
+    "web_code": "/无语",
+    "src": "/static/wechat-emojis/Speechless.png"
+  },
+  {
+    "cn": "[嘿哈]",
+    "hk": "[嘿哈]",
+    "us": "[HeiHa]",
+    "code": "/:heiha",
+    "web_code": "/嘿哈",
+    "src": "/static/wechat-emojis/HeiHa.png"
+  },
+  {
+    "cn": "[捂脸]",
+    "hk": "[摀臉]",
+    "us": "[CoverFace]",
+    "code": "/:coverface",
+    "web_code": "/捂脸",
+    "src": "/static/wechat-emojis/CoverFace.png"
+  },
+  {
+    "cn": "[奸笑]",
+    "hk": "[奸笑]",
+    "us": "[SlyLaugh]",
+    "code": "/:slylaugh",
+    "web_code": "/奸笑",
+    "src": "/static/wechat-emojis/SlyLaugh.png"
+  },
+  {
+    "cn": "[机智]",
+    "hk": "[機智]",
+    "us": "[Smart]",
+    "code": "/:smart",
+    "web_code": "/机智",
+    "src": "/static/wechat-emojis/Smart.png"
+  },
+  {
+    "cn": "[皱眉]",
+    "hk": "[皺眉]",
+    "us": "[Frown]",
+    "code": "/:frown",
+    "web_code": "/皱眉",
+    "src": "/static/wechat-emojis/Frown.png"
+  },
+  {
+    "cn": "[耶]",
+    "hk": "[耶]",
+    "us": "[Yeah]",
+    "code": "/:yeah",
+    "web_code": "/耶",
+    "src": "/static/wechat-emojis/Yeah.png"
+  },
+  {
+    "cn": "[吃瓜]",
+    "hk": "[吃瓜]",
+    "us": "[EatMelon]",
+    "code": "/:eatmelon",
+    "web_code": "/吃瓜",
+    "src": "/static/wechat-emojis/EatMelon.png"
+  },
+  {
+    "cn": "[加油]",
+    "hk": "[加油]",
+    "us": "[Cheer]",
+    "code": "/:cheer",
+    "web_code": "/加油",
+    "src": "/static/wechat-emojis/Cheer.png"
+  },
+  {
+    "cn": "[汗]",
+    "hk": "[汗]",
+    "us": "[Sweat]",
+    "code": "/:sweat",
+    "web_code": "/汗",
+    "src": "/static/wechat-emojis/Sweat.png"
+  },
+  {
+    "cn": "[天啊]",
+    "hk": "[天啊]",
+    "us": "[OhMyGod]",
+    "code": "/:ohmygod",
+    "web_code": "/天啊",
+    "src": "/static/wechat-emojis/OhMyGod.png"
+  },
+  {
+    "cn": "[Emm]",
+    "hk": "[Emm]",
+    "us": "[Hmm]",
+    "code": "/:emm",
+    "web_code": "/Emm",
+    "src": "/static/wechat-emojis/Hmm.png"
+  },
+  {
+    "cn": "[社会社会]",
+    "hk": "[社會社會]",
+    "us": "[Respect]",
+    "code": "/:respect",
+    "web_code": "/社会社会",
+    "src": "/static/wechat-emojis/Respect.png"
+  },
+  {
+    "cn": "[旺柴]",
+    "hk": "[旺柴]",
+    "us": "[Prosperous]",
+    "code": "/:prosperous",
+    "web_code": "/旺柴",
+    "src": "/static/wechat-emojis/Prosperous.png"
+  },
+  {
+    "cn": "[好的]",
+    "hk": "[好的]",
+    "us": "[Okay]",
+    "code": "/:okay",
+    "web_code": "/好的",
+    "src": "/static/wechat-emojis/Okay.png"
+  },
+  {
+    "cn": "[打脸]",
+    "hk": "[打臉]",
+    "us": "[SlapFace]",
+    "code": "/:slapface",
+    "web_code": "/打脸",
+    "src": "/static/wechat-emojis/SlapFace.png"
+  },
+  {
+    "cn": "[哇]",
+    "hk": "[哇]",
+    "us": "[Wow]",
+    "code": "/:wow",
+    "web_code": "/哇",
+    "src": "/static/wechat-emojis/Wow.png"
+  },
+  {
+    "cn": "[翻白眼]",
+    "hk": "[翻白眼]",
+    "us": "[EyeRoll]",
+    "code": "/:eyeroll",
+    "web_code": "/翻白眼",
+    "src": "/static/wechat-emojis/EyeRoll.png"
+  },
+  {
+    "cn": "[666]",
+    "hk": "[666]",
+    "us": "[Awesome]",
+    "code": "/:awesome",
+    "web_code": "/666",
+    "src": "/static/wechat-emojis/Awesome.png"
+  },
+  {
+    "cn": "[让我看看]",
+    "hk": "[讓我看看]",
+    "us": "[LetMeSee]",
+    "code": "/:letmesee",
+    "web_code": "/让我看看",
+    "src": "/static/wechat-emojis/LetMeSee.png"
+  },
+  {
+    "cn": "[叹气]",
+    "hk": "[嘆氣]",
+    "us": "[Sigh]",
+    "code": "/:sigh",
+    "web_code": "/叹气",
+    "src": "/static/wechat-emojis/Sigh.png"
+  },
+  {
+    "cn": "[苦涩]",
+    "hk": "[苦澀]",
+    "us": "[Bitter]",
+    "code": "/:bitter",
+    "web_code": "/苦涩",
+    "src": "/static/wechat-emojis/Bitter.png"
+  },
+  {
+    "cn": "[裂开]",
+    "hk": "[裂開]",
+    "us": "[Crack]",
+    "code": "/:crack",
+    "web_code": "/裂开",
+    "src": "/static/wechat-emojis/Crack.png"
+  },
+  {
+    "cn": "[嘴唇]",
+    "hk": "[嘴唇]",
+    "us": "[Lips]",
+    "code": "/:lips",
+    "web_code": "/嘴唇",
+    "src": "/static/wechat-emojis/Lips.png"
+  },
+  {
+    "cn": "[爱心]",
+    "hk": "[愛心]",
+    "us": "[Heart]",
+    "code": "/:heart",
+    "web_code": "/爱心",
+    "src": "/static/wechat-emojis/Heart.png"
+  },
+  {
+    "cn": "[心碎]",
+    "hk": "[心碎]",
+    "us": "[BrokenHeart]",
+    "code": "/:brokenheart",
+    "web_code": "/心碎",
+    "src": "/static/wechat-emojis/BrokenHeart.png"
+  },
+  {
+    "cn": "[拥抱]",
+    "hk": "[擁抱]",
+    "us": "[Hug]",
+    "code": "/:hug",
+    "web_code": "/拥抱",
+    "src": "/static/wechat-emojis/Hug.png"
+  },
+  {
+    "cn": "[强]",
+    "hk": "[強]",
+    "us": "[Strong]",
+    "code": "/:strong",
+    "web_code": "/强",
+    "src": "/static/wechat-emojis/Strong.png"
+  },
+  {
+    "cn": "[弱]",
+    "hk": "[弱]",
+    "us": "[Weak]",
+    "code": "/:weak",
+    "web_code": "/弱",
+    "src": "/static/wechat-emojis/Weak.png"
+  },
+  {
+    "cn": "[握手]",
+    "hk": "[握手]",
+    "us": "[Handshake]",
+    "code": "/:handshake",
+    "web_code": "/握手",
+    "src": "/static/wechat-emojis/Handshake.png"
+  },
+  {
+    "cn": "[胜利]",
+    "hk": "[勝利]",
+    "us": "[Victory]",
+    "code": "/:victory",
+    "web_code": "/胜利",
+    "src": "/static/wechat-emojis/Victory.png"
+  },
+  {
+    "cn": "[抱拳]",
+    "hk": "[抱拳]",
+    "us": "[Salute]",
+    "code": "/:salute",
+    "web_code": "/抱拳",
+    "src": "/static/wechat-emojis/Salute.png"
+  },
+  {
+    "cn": "[勾引]",
+    "hk": "[勾引]",
+    "us": "[Seduce]",
+    "code": "/:seduce",
+    "web_code": "/勾引",
+    "src": "/static/wechat-emojis/Seduce.png"
+  },
+  {
+    "cn": "[拳头]",
+    "hk": "[拳頭]",
+    "us": "[Fist]",
+    "code": "/:fist",
+    "web_code": "/拳头",
+    "src": "/static/wechat-emojis/Fist.png"
+  },
+  {
+    "cn": "[OK]",
+    "hk": "[OK]",
+    "us": "[OK]",
+    "code": "/:ok",
+    "web_code": "/OK",
+    "src": "/static/wechat-emojis/OK.png"
+  },
+  {
+    "cn": "[合十]",
+    "hk": "[合十]",
+    "us": "[Pray]",
+    "code": "/:pray",
+    "web_code": "/合十",
+    "src": "/static/wechat-emojis/Pray.png"
+  },
+  {
+    "cn": "[啤酒]",
+    "hk": "[啤酒]",
+    "us": "[Beer]",
+    "code": "/:beer",
+    "web_code": "/啤酒",
+    "src": "/static/wechat-emojis/Beer.png"
+  },
+  {
+    "cn": "[咖啡]",
+    "hk": "[咖啡]",
+    "us": "[Coffee]",
+    "code": "/:coffee",
+    "web_code": "/咖啡",
+    "src": "/static/wechat-emojis/Coffee.png"
+  },
+  {
+    "cn": "[蛋糕]",
+    "hk": "[蛋糕]",
+    "us": "[Cake]",
+    "code": "/:cake",
+    "web_code": "/蛋糕",
+    "src": "/static/wechat-emojis/Cake.png"
+  },
+  {
+    "cn": "[玫瑰]",
+    "hk": "[玫瑰]",
+    "us": "[Rose]",
+    "code": "/:rose",
+    "web_code": "/玫瑰",
+    "src": "/static/wechat-emojis/Rose.png"
+  },
+  {
+    "cn": "[凋谢]",
+    "hk": "[凋謝]",
+    "us": "[Wilt]",
+    "code": "/:wilt",
+    "web_code": "/凋谢",
+    "src": "/static/wechat-emojis/Wilt.png"
+  },
+  {
+    "cn": "[菜刀]",
+    "hk": "[菜刀]",
+    "us": "[Cleaver]",
+    "code": "/:cleaver",
+    "web_code": "/菜刀",
+    "src": "/static/wechat-emojis/Cleaver.png"
+  },
+  {
+    "cn": "[炸弹]",
+    "hk": "[炸彈]",
+    "us": "[Bomb]",
+    "code": "/:bomb",
+    "web_code": "/炸弹",
+    "src": "/static/wechat-emojis/Bomb.png"
+  },
+  {
+    "cn": "[便便]",
+    "hk": "[便便]",
+    "us": "[Poop]",
+    "code": "/:poop",
+    "web_code": "/便便",
+    "src": "/static/wechat-emojis/Poop.png"
+  },
+  {
+    "cn": "[月亮]",
+    "hk": "[月亮]",
+    "us": "[Moon]",
+    "code": "/:moon",
+    "web_code": "/月亮",
+    "src": "/static/wechat-emojis/Moon.png"
+  },
+  {
+    "cn": "[太阳]",
+    "hk": "[太陽]",
+    "us": "[Sun]",
+    "code": "/:sun",
+    "web_code": "/太阳",
+    "src": "/static/wechat-emojis/Sun.png"
+  },
+  {
+    "cn": "[庆祝]",
+    "hk": "[慶祝]",
+    "us": "[Celebrate]",
+    "code": "/:celebrate",
+    "web_code": "/庆祝",
+    "src": "/static/wechat-emojis/Celebrate.png"
+  },
+  {
+    "cn": "[礼物]",
+    "hk": "[禮物]",
+    "us": "[Gift]",
+    "code": "/:gift",
+    "web_code": "/礼物",
+    "src": "/static/wechat-emojis/Gift.png"
+  },
+  {
+    "cn": "[红包]",
+    "hk": "[紅包]",
+    "us": "[RedEnvelope]",
+    "code": "/:redenvelope",
+    "web_code": "/红包",
+    "src": "/static/wechat-emojis/RedEnvelope.png"
+  },
+  {
+    "cn": "[發]",
+    "hk": "[發]",
+    "us": "[Prosperity]",
+    "code": "/:prosperity",
+    "web_code": "/發",
+    "src": "/static/wechat-emojis/Prosperity.png"
+  },
+  {
+    "cn": "[福]",
+    "hk": "[福]",
+    "us": "[Blessing]",
+    "code": "/:blessing",
+    "web_code": "/福",
+    "src": "/static/wechat-emojis/Blessing.png"
+  },
+  {
+    "cn": "[烟花]",
+    "hk": "[煙花]",
+    "us": "[Fireworks]",
+    "code": "/:fireworks",
+    "web_code": "/烟花",
+    "src": "/static/wechat-emojis/Fireworks.png"
+  },
+  {
+    "cn": "[爆竹]",
+    "hk": "[爆竹]",
+    "us": "[Firecracker]",
+    "code": "/:firecracker",
+    "web_code": "/爆竹",
+    "src": "/static/wechat-emojis/Firecracker.png"
+  },
+  {
+    "cn": "[猪头]",
+    "hk": "[豬頭]",
+    "us": "[PigHead]",
+    "code": "/:pighead",
+    "web_code": "/猪头",
+    "src": "/static/wechat-emojis/PigHead.png"
+  }
+]

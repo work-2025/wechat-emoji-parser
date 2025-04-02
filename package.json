@@ -1,0 +1,56 @@
+{
+  "name": "wechat-emoji-parser",
+  "version": "2.3.1",
+  "description": "微信表情",
+  "keywords": [
+    "微信",
+    "wechat",
+    "表情",
+    "emoji",
+    "表情解析",
+    "微信表情"
+  ],
+  "scripts": {
+    "compile": "tsc --outDir ./dist/types --emitDeclarationOnly",
+    "build": "vite build && npm run compile && node scripts/genPkgInfo.js",
+    "version": "node scripts/version.js && npm run changelog",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "test": "vitest --environment jsdom",
+    "prettier": "prettier --write .",
+    "prepare": "husky install && node scripts/huskyHooks.js"
+  },
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingtianyihou33/wechat-emoji-parser.git"
+  },
+  "author": "mingtianyihou33 <liumingyi1428@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "4.1.1",
+    "conventional-changelog-cli": "4.1.0",
+    "husky": "9.0.11",
+    "jsdom": "^26.0.0",
+    "lint-staged": "15.2.7",
+    "ora": "4.0.3",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4",
+    "vite": "5.4.2",
+    "vitest": "2.0.5"
+  },
+  "gitHooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "bun run scripts/verifyCommit.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ],
+    "*.vue": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --write"
+    ]
+  }
+}
