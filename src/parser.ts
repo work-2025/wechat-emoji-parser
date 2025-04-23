@@ -4,6 +4,10 @@ import { stringSplice, isWin } from './utils/uitl'
 const emojiKeys = Object.keys(EMOJI_KEY_RELATE_EMOJI_INDEX)
 const trie = new Trie(emojiKeys)
 
+function parseHtmlString(html: string) {
+  return html.split(/(<[^>]+>)/g).filter(Boolean);
+}
+
 export function getEmojiStyle(
   src: string,
   emojiOption: EmojiParserOption,
@@ -69,7 +73,7 @@ function escapeHtml(str: string): string {
   return str.replace(/[<>]/g, (m) => escapeMap[m]);
 }
 
-export function parseEmoji(str: string, isSafe: boolean = false, format: string = "html"): string | any[] {
+export function handleParseEmoji(str: string, isSafe: boolean = false, format: string = "html"): string | any[] {
   if (!str) return str
   if (isSafe) {
     str = escapeHtml(str)
@@ -93,10 +97,45 @@ export function parseEmoji(str: string, isSafe: boolean = false, format: string 
   return str
 }
 
-// console.log(parseEmoji("[囧]235432523[抠鼻]22132424[翻白眼][加油加油][加油加油][加油加油]"))
-
 export function configParseEmoji(option: EmojiParserOption | undefined) {
   if (option) {
     Object.assign(defaultEmojiOption, option)
   }
+}
+
+// console.log(parseEmoji("[囧]235432523[抠鼻]22132424[翻白眼][加油加油][加油加油][加油加油]"))
+// console.log(parseEmoji('<a target="_blank" href="https://meet.2tianxin.com/website[抱拳]">https://meet.2tianxin.com/website[抱拳]</a>')
+export function parseEmoji(str: string, isSafe: boolean = false, format: string = "html"): string | any[] {
+  const isHtml = format === "html"
+
+  if (!str) {
+    return isHtml ? str : []
+  }
+
+  const strArr = parseHtmlString(str)
+  const result = []
+
+  if (strArr && strArr.length) {
+    for (let i = 0; i < strArr.length; i++) {
+      const item = strArr[i]
+
+      if (/(<[^>]+>)/g.test(item)) {
+        if (isHtml) {
+          result.push(item)
+        }
+      } else {
+        const res = handleParseEmoji(item, isSafe, format)
+
+        if (isHtml) {
+          result.push(res)
+        } else {
+          result.push(...res)
+        }
+      }
+    }
+  } else {
+    return isHtml ? str : []
+  }
+
+  return isHtml ? result.join('') : result
 }
