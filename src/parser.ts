@@ -47,10 +47,10 @@ export function transform2Html(
   }
 
   if (tag.toLowerCase() === 'img') {
-    return `<${tag} src="${EMOJI_DATA[index].src}" style="${style}" alt="${name}" />`
+    return `<${tag} class="wx-emoji" src="${EMOJI_DATA[index].src}" style="${style}" alt="${name}" draggable="false" />`
   }
 
-  return `<${tag} title="${name}" class="wx-emoji" style="${style}"></${tag}>`
+  return `<${tag} title="${name}" class="wx-emoji" style="${style}" draggable="false" ></${tag}>`
 }
 
 const defaultEmojiOption: EmojiParserOption = {
@@ -119,7 +119,10 @@ export function parseEmoji(str: string, isSafe: boolean = false, format: string 
     for (let i = 0; i < strArr.length; i++) {
       const item = strArr[i]
 
-      if (/(<[^>]+>)/g.test(item)) {
+      if (
+        /(<[^>]+>)/g.test(item) ||
+        /((&lt;)[^>]+(&gt;))/g.test(item)
+      ) {
         if (isHtml) {
           result.push(item)
         }
